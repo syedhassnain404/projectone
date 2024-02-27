@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.all{
+    background-color:rgb(82, 70, 48) ;
+    width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows:   1fr;
+    height: 110vh;
+}
+
+.pic{
+background-color:rgb(253, 253, 253) ;
+    display: flex;
+    justify-content: center;
+    background-image: url("rodion-kutsaiev-pVoEPpLw818-unsplash.webp");
+    background-size: 1000px;
+       background-repeat: no-repeat;
+    align-items: center;
+    background-attachment: fixed;
+}
+.pic img{
+    width:400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow:  6px 6px 20px 2px rgb(19, 18, 18);
+
+    object-fit: cover;
+}
+
+.nav{
+
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 10px;
+
+
+}
+.nav h1{
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px;
+   
+    font-family: sans-serif;
+    color: white;
+
+
+}
+
+.nav i{
+    font-size: 30px;
+     color: white;
+}
+
+.content{
+    background-color:rgb(184, 52, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 20px;
+    
+  
+    color: white;
+}
+.content div{
+    width: 60%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.content p{
+    padding: 20px;
+    font-size: 25px;
+    color: gray;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content p span{
+color: orange;
+}
+
+.content ul{
+list-style: none;
+display: block;
+justify-content: space-between;
+}
+
+.content ul li{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    border: 1px black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content :hover ul li{
+opacity: 0.5;
+}
+
+.content ul li:hover{
+    opacity: 1;
+}
+
+.content ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.icons i{
+    font-size: 20px;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
